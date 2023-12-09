@@ -1,5 +1,5 @@
 'Access-Control-Allow-Origin', '*'
-'Access-Control-Allow-Methods', 'GET,POST,OPTIONS,DELETE,PUT'
+'Access-Control-Allow-Methods', 'GET,POST,OPTIONS,DELETE,PUT,PATCH'
 const bodyParser = require('body-parser');
 const express = require('express');
 const mongoose = require('mongoose');
