@@ -18,6 +18,7 @@ mongoose.connect(DB,{
     app.use(express.json());
     app.use(bodyParser.urlencoded({extended:false}));
     app.use(cors());
+    app.options('*', cors());
 
     app.get('/',async(req,res)=>{
         const user = await employe.find();
